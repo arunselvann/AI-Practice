@@ -11,7 +11,7 @@ class CalendarEvent(BaseModel):
     date: str
     participants: list[str]
 
-completion = client.chat.completions.create(
+completion = client.beta.chat.completions.parse(
     model="gpt-4o",
     messages=[
         {"role": "system", "content": "Extract the event information."},
