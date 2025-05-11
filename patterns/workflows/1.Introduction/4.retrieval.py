@@ -20,7 +20,7 @@ def search_kb(question: str):
     Load the whole knowledge base from the JSON file.
     (This is a mock function for demonstration purposes, we don't search)
     """
-    with open("C:/Users/aruns/OneDrive/Desktop/Practice/AI-Practice/patterns/workflows/Introduction/kb.json", "r") as f:
+    with open("C:/Users/aruns/OneDrive/Desktop/Practice/AI-Practice/patterns/workflows/1.Introduction/kb.json", "r") as f:
         return json.load(f)
 
 
